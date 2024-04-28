@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ====================================================================================== */
+/* --------------------------------------cards------------------------------------------- */
+/* ======================================================================================= */
+
+.cards{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-card-body {
+    transition: 0.3s;
+    width: 269px;
+    height: 450px;
+    margin: 30px;
+    background-color: #F8B864;
+}
+.card-line-main{
+    display: flex;
+    margin-top: 30px;
+}
+.card-line{
+    width: 70%;
+    height: 3px;
+    background-color: black;
+    border: 1px solid rgba(0, 0, 0, 0.377);
+}
+.card-line-2{
+    width: 20%;
+    height: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    background-color: white;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.hero-card-img-div{
+    width: 100%;
+    height: 175px;
+}
+.hero-card-img{
+    width: 100%;
+    height: 175px;
+    /* margin: 10px; */
+}
+.hero-card-text {
+    padding: 2px 16px;
+}
+.hero-card-read-more{
+    margin-top: 30px;
+}
+.card-h{
+    margin-top: 20px;
+}
+
+/* ========================================================================= */
+/* ----------------------------Page heading 1-------------------------------- */
+/* ========================================================================== */
+
+.page-heading{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pagae-para-1{
+    margin-top: 20px;
+    width: 400px;
+    text-align: center;
+}
+.page-h-1{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: jost;
+    margin-top: 20px;
+}
+.page-hr{
+    margin-top: 20px;
+    height: 7px;
+    background-color: #F8B864;
+    width: 150px;
+}
+
+@media only screen and (min-width: 288px) and (max-width: 599px) {
+    /* ---------------------------page heading------------------------------ */
+    .pagae-para-1{
+        text-align: center;
+        font-size: 14px;
+        width: 100%;
+    }
+}
